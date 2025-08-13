@@ -10,3 +10,15 @@
 2025-08-13 10:17:24,971 - INFO - Model training & evaluation complete.
 2025-08-13 10:17:25,137 - INFO - Visualizations generated.
 2025-08-13 10:17:25,137 - INFO - === Pipeline end ===
+2025-08-13 10:27:18,260 - INFO - === Pipeline start ===
+2025-08-13 10:27:18,276 - INFO - Extracted → data/extracted/insurance_claims_raw.csv (rows=1000)
+2025-08-13 10:27:18,280 - INFO - Transformed dataframe shape: (1000, 37)
+2025-08-13 10:27:18,287 - INFO - Processed saved → data/processed/insurance_claims_cleaned.csv
+2025-08-13 10:27:18,294 - INFO - Training LogisticRegression...
+2025-08-13 10:27:18,961 - INFO - LogisticRegression metrics saved → data/evaluations/logisticregression_report.json
+2025-08-13 10:27:18,961 - INFO - Training RandomForest...
+2025-08-13 10:27:19,587 - INFO - RandomForest metrics saved → data/evaluations/randomforest_report.json
+2025-08-13 10:27:19,587 - INFO - Metrics summary saved → data/evaluations/metrics_summary.csv
+2025-08-13 10:27:19,589 - INFO - Model training & evaluation complete.
+2025-08-13 10:27:19,747 - INFO - Visualizations generated.
+2025-08-13 10:27:19,747 - INFO - === Pipeline end ===
